@@ -20,3 +20,9 @@ The graph below shows the Accuracy of the model for the first 10 epochs.
 The graph below shows the Loss of the model after the first 10 epochs.
 
 <img width="615" alt="Screenshot 2023-08-11 at 11 38 28 AM" src="https://github.com/Pranav2328/LeNet_CNN/assets/85324957/7737bd34-5261-4547-a645-1ad6fee39ab2">
+
+## Model Evaluation
+Upon training the model for different number of epochs the accuracy of the model
+on the training set increases drastically with more number of epochs up to about
+90% buut when the model attempts to classify the test set it only succeeds at a 
+60% rate. 
