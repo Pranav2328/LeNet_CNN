@@ -7,5 +7,6 @@ The images consist of 10 classes: Airplane, Automobile, Bird, Cat, Deer, Dog,
 Frog, Horse, Ship, and a Truck. The image below shows each of the classes and
 the a few examples of each class.
 
-<img src="./Cifar-example.png" width="350"/>
+<img width="476" alt="Cifar-example" src="https://github.com/Pranav2328/LeNet_CNN/assets/85324957/327f552a-a945-471b-84e7-546b5f5e14af">
 
+##
