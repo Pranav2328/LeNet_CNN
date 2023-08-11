@@ -6,5 +6,5 @@ It consists of 60000 images with a 32x32 resolution. The dataset is split into
 The images consist of 10 classes: Airplane, Automobile, Bird, Cat, Deer, Dog, 
 Frog, Horse, Ship, and a Truck. The image below shows each of the classes and
 the a few examples of each class.
-![My Image](./Cifar-example.png =250x250)
+<img src="./Cifar-example.png" width="200"/>
 
