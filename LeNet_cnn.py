@@ -67,8 +67,23 @@ if __name__ == "__main__":
         # print(f'Training for fold {fold_no} ...')
 
     #Train LeNet model
-    model.fit(datagen.flow(X_train, y_train, batch_size=128), epochs=10, shuffle=True)
+    history = model.fit(datagen.flow(X_train, y_train, batch_size=128), epochs=10, shuffle=True)
     print(model.evaluate(X_test, y_test))
+
+    #Model performance data Accuracy
+    plt.plot(history.history["accuracy"])
+    plt.title("Model Accuracy")
+    plt.ylabel("accuracy")
+    plt.xlabel("epoch")
+    plt.show()
+
+    #Model performance data Loss
+    plt.plot(history.history["loss"])
+    plt.title("Model Loss")
+    plt.ylabel("Loss")
+    plt.xlabel("epoch")
+    plt.legend(["train","test"],loc="upper left")
+    plt.show()
 
         # # Generate generalization metrics
         # scores = model.evaluate(inputs[test], targets[test], verbose=0)
